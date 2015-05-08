@@ -1,0 +1,182 @@
+/************************
+	GLOBAL VARIABLES
+************************/
+
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 2em;
+	padding-top: 70px;
+}
+
+a {
+	color: #000;
+}
+
+	a:hover {
+		color: #cead00;
+	}
+
+section {
+	padding: 2em 0;
+}
+
+	section h1 {
+		font-size: 3em;
+		margin-bottom: 2.5rem;
+	}
+
+	section p {
+		font-family: 'Oswald', sans-serif;
+		font-weight: 200;
+	}
+
+.section-link {
+	font-family: 'Old Standard TT', serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+::selection {
+	background:#E9A7C0;
+	color:#fff;
+}
+
+	::-moz-selection {
+		background:#E9A7C0;
+		color:#fff;
+	}
+
+	::-webkit-selection {
+		background:#E9A7C0;
+		color:#fff;
+	}
+
+/************************
+	   NAVIGATION
+************************/
+
+.navbar-default {
+	background: #000;
+	border: none;
+	margin: 0;
+	padding: 0.5em;
+	border-radius: 0;
+}
+
+.navbar-moved {
+	background: #000;
+	border-bottom: 1px solid #413E3E;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 2em;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-weight: 200;
+}
+
+	.navbar-default .navbar-nav>li>a:hover {
+	  color: #5e5e5e;
+	}
+
+	.navbar-default .navbar-nav>li>a:focus {
+	  color: #fff;
+	}
+
+/************************
+		LANDING
+************************/
+
+.landing {
+	color: #fff;
+	background: #000;
+	margin-top: 0;
+	padding-top: 2em;
+}
+
+	.landing a {
+		color: #fff;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.2em;
+		font-weight: 200;
+		line-height: 3em;
+	}
+
+.poster-border {
+	border: 1px solid #2F2F2E;
+}
+
+/************************
+		 ABOUT
+************************/
+
+.about {
+	background-image: url('../images/axiom-pattern.png');
+}
+
+	.about span {
+		text-decoration: underline;
+	}
+
+/************************
+		SERVICES
+************************/
+
+.services {
+	background: #000;
+	color: #fff;
+}
+	.services .row {
+		margin-bottom: 1em;
+		overflow: hidden;
+	}
+
+	.services a {
+		color: #fff;
+	}
+
+		.services a:hover {
+			color: #cead00;
+		}
+
+.description {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+/************************
+		CONTACT
+************************/
+
+.contact {
+	background: #424444;
+	color: #fff;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #000;
+	border-color: #2F2F2E;
+}
+
+.btn-primary:hover {
+	background-color: #000;
+	border-color: #cead00;
+}
+
+/************************
+		FOOTER
+************************/
+
+.footer {
+	background: #424444;
+	color: #fff;
+	font-size: 0.75em;
+	padding-top: 0;
+}
